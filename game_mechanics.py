@@ -55,8 +55,10 @@ def display_score(score, round_number):
     """
     #------------------------
     # Add your code here
+    print("Current round number:", round_number)
+    print("Current score:", score)
     #------------------------
-    raise NotImplementedError("This function is not implemented yet.")
+    
     #------------------------
 
 #---------------------------------------
@@ -72,8 +74,9 @@ def game_over_message(final_score):
     """
     #------------------------
     # Add your code here
+    print("Game Over! Your final score is ", final_score)
     #------------------------
-    raise NotImplementedError("This function is not implemented yet.")
+    
     #------------------------
 
 #---------------------------------------
