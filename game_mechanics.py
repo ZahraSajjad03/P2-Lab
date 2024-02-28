@@ -32,8 +32,13 @@ def choose_category(categories):
     """
     #------------------------
     # Add your code here
+    print("Choose a category that you wish:")
+    for i in range(len(categories)):
+        print(str(i+1)+"." + categories[i])
+    choice=int(input("Enter the number of your category:"))
+    return categories[choice - 1]
     #------------------------
-    raise NotImplementedError("This function is not implemented yet.")
+    
     #------------------------
 
 #---------------------------------------
